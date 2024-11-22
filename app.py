@@ -7,26 +7,36 @@ from PIL import Image
 
 # df = pd.read_csv("data/match_result.csv")
 
+
+img = Image.open('assets/OBRAS.png')
+st.set_page_config('MPAD M8', 
+                    page_icon=img, 
+                    layout='wide',
+                    initial_sidebar_state='collapsed')
+
 def main():
-    st.title("Trabajando con controles de ingreso de datos.")
+    st.title("Personalizando mi aplicacion.")
+    st.sidebar.header('Menu')
+   
+   
+    # CONTROLES DE ENTRADA
+    # nombre = st.text_input("Ingrese su nombre: ")
+    # st.write(nombre)
 
-    nombre = st.text_input("Ingrese su nombre: ")
-    st.write(nombre)
+    # mensaje = st.text_area("Ingrese su nombre: ", height=100)
+    # st.write(mensaje) # Para ver el resultado apretar Ctrl + Enter
 
-    mensaje = st.text_area("Ingrese su nombre: ", height=100)
-    st.write(mensaje) # Para ver el resultado apretar Ctrl + Enter
+    # edad = st.number_input("Ingrese su edad: ", 1,100, step=5)
+    # st.write(edad)
 
-    edad = st.number_input("Ingrese su edad: ", 1,100, step=5)
-    st.write(edad)
+    # fecha = st.date_input("Ingrese su fecha de nacimiento: ")
+    # st.write(fecha)
 
-    fecha = st.date_input("Ingrese su fecha de nacimiento: ")
-    st.write(fecha)
+    # hora = st.time_input("Ingrese la hora: ")
+    # st.write(hora)
 
-    hora = st.time_input("Ingrese la hora: ")
-    st.write(hora)
-
-    color = st.color_picker("Seleccione un color")
-    st.write(color)
+    # color = st.color_picker("Seleccione un color")
+    # st.write(color)
     
     
     
