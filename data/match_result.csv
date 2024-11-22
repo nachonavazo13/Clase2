@@ -1,0 +1,51 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+2024-03-15,Barcelona,Real Madrid,2,1,La Liga,Barcelona,Spain,FALSE
+2024-03-12,Bayern Munich,Arsenal,3,1,Champions League,Munich,Germany,FALSE
+2024-03-10,Manchester City,Liverpool,2,2,Premier League,Manchester,England,FALSE
+2024-03-08,PSG,Lyon,4,0,Ligue 1,Paris,France,FALSE
+2024-03-05,Inter Milan,Atletico Madrid,1,0,Champions League,Milan,Italy,FALSE
+2024-03-02,Juventus,Napoli,2,1,Serie A,Turin,Italy,FALSE
+2024-02-28,Brazil,Argentina,3,2,World Cup Qualifier,Rio de Janeiro,Brazil,FALSE
+2024-02-25,Ajax,PSV,1,3,Eredivisie,Amsterdam,Netherlands,FALSE
+2024-02-22,Porto,Benfica,2,2,Primeira Liga,Porto,Portugal,FALSE
+2024-02-19,Arsenal,Newcastle,3,0,Premier League,London,England,FALSE
+2024-02-16,Borussia Dortmund,RB Leipzig,2,1,Bundesliga,Dortmund,Germany,FALSE
+2024-02-13,Real Madrid,Manchester City,2,2,Champions League,Madrid,Spain,FALSE
+2024-02-10,Milan,Roma,3,1,Serie A,Milan,Italy,FALSE
+2024-02-07,France,Germany,2,1,International Friendly,Paris,France,FALSE
+2024-02-04,Liverpool,Chelsea,4,1,Premier League,Liverpool,England,FALSE
+2024-02-01,Atletico Madrid,Barcelona,1,1,La Liga,Madrid,Spain,FALSE
+2024-01-29,Bayern Munich,Wolfsburg,3,0,Bundesliga,Munich,Germany,FALSE
+2024-01-26,Manchester United,Tottenham,2,2,Premier League,Manchester,England,FALSE
+2024-01-23,Argentina,Chile,2,0,World Cup Qualifier,Buenos Aires,Argentina,FALSE
+2024-01-20,PSG,Marseille,3,1,Ligue 1,Paris,France,FALSE
+2024-01-17,Inter Milan,Juventus,1,0,Serie A,Milan,Italy,FALSE
+2024-01-14,Real Madrid,Sevilla,4,1,La Liga,Madrid,Spain,FALSE
+2024-01-11,Arsenal,Aston Villa,2,1,Premier League,London,England,FALSE
+2024-01-08,Barcelona,Valencia,3,0,La Liga,Barcelona,Spain,FALSE
+2024-01-05,Napoli,Lazio,2,2,Serie A,Naples,Italy,FALSE
+2024-01-02,Portugal,Spain,1,1,International Friendly,Lisbon,Portugal,TRUE
+2023-12-30,Manchester City,Sheffield United,3,0,Premier League,Manchester,England,FALSE
+2023-12-27,Bayern Munich,Stuttgart,2,1,Bundesliga,Munich,Germany,FALSE
+2023-12-24,PSG,Lens,2,0,Ligue 1,Paris,France,FALSE
+2023-12-21,Liverpool,Arsenal,2,2,Premier League,Liverpool,England,FALSE
+2023-12-18,Real Madrid,Villarreal,3,0,La Liga,Madrid,Spain,FALSE
+2023-12-15,Borussia Dortmund,Monchengladbach,4,2,Bundesliga,Dortmund,Germany,FALSE
+2023-12-12,Milan,Fiorentina,2,1,Serie A,Milan,Italy,FALSE
+2023-12-09,Barcelona,Girona,2,1,La Liga,Barcelona,Spain,FALSE
+2023-12-06,Brazil,Uruguay,3,1,World Cup Qualifier,Sao Paulo,Brazil,FALSE
+2023-12-03,Manchester United,Newcastle,1,1,Premier League,Manchester,England,FALSE
+2023-11-30,PSG,Monaco,3,2,Ligue 1,Paris,France,FALSE
+2023-11-27,Inter Milan,Roma,2,0,Serie A,Milan,Italy,FALSE
+2023-11-24,Bayern Munich,Leverkusen,2,2,Bundesliga,Munich,Germany,FALSE
+2023-11-21,England,Italy,2,1,International Friendly,London,England,TRUE
+2023-11-18,Real Madrid,Valencia,3,1,La Liga,Madrid,Spain,FALSE
+2023-11-15,Arsenal,Burnley,2,0,Premier League,London,England,FALSE
+2023-11-12,Juventus,Cagliari,2,1,Serie A,Turin,Italy,FALSE
+2023-11-09,PSV,Feyenoord,3,2,Eredivisie,Eindhoven,Netherlands,FALSE
+2023-11-06,Manchester City,Chelsea,3,1,Premier League,Manchester,England,FALSE
+2023-11-03,Atletico Madrid,Rayo Vallecano,2,1,La Liga,Madrid,Spain,FALSE
+2023-10-31,PSG,Nice,4,1,Ligue 1,Paris,France,FALSE
+2023-10-28,Napoli,Milan,1,2,Serie A,Naples,Italy,FALSE
+2023-10-25,Barcelona,Athletic Bilbao,3,0,La Liga,Barcelona,Spain,FALSE
+2023-10-22,Liverpool,Everton,2,0,Premier League,Liverpool,England,FALSE
