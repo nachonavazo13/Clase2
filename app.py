@@ -5,54 +5,66 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-df = pd.read_csv("data/match_result.csv")
+# df = pd.read_csv("data/match_result.csv")
 
 def main():
-    st.title("Trabajando con componentes en Streamlit")
+    st.title("Trabajando con Multimedia en Streamlit")
 
-    posicion = st.selectbox("Seleccione una posicion",["Portero", "Defensa", "Mediocampista", "Delantero"])
-    st.write(f"La posicion seleccionada es: {posicion}")
+    img = Image.open("assets/OBRAS.png")
+    st.image(img, use_container_width=True)
 
-    opciones = st.multiselect("Seleccione una posicion",["Portero", "Defensa", "Mediocampista", "Delantero"])
-    st.write(f"La posicion seleccionada es: {opciones}")
+    img1 = "https://aula.sportsdatacampus.com/pluginfile.php?file=%2F1%2Ftheme_moove%2Flogo%2F1729159738%2FSDC_Hor_250.png"
+    st.image(img1, use_container_width=True)
 
-    edad = st.slider('Selecione su edad: ',
-                    min_value=1, max_value=100, value=20, step=1)
-    st.write(f"Su edad es : {edad}")
+    with open("assets/2_PICK AL EJE.mp4", 'rb') as video_file:
+        st.video(video_file, start_time=0)
+    
 
-    nivel = st.select_slider(
-        "Selecciones su nivel: ",
-        ["Muy bajo", "Bajo", "Medio", "Alto", "Muy alto"])
-    st.write(f"Su nivel es: {nivel}")
 
-    opc = st.radio('Seleccione una opcion: ',["Portero", "Defensa", "Mediocampista", "Delantero"])
-    st.write(f'La opcion es: {opc}')
 
-    check = st.checkbox("Acepto las condiciones.")
-    if check:
-        st.write("Has aceptado las condiciones")
-    else:
-        st.write("No has aceptado las condiciones")
+    # posicion = st.selectbox("Seleccione una posicion",["Portero", "Defensa", "Mediocampista", "Delantero"])
+    # st.write(f"La posicion seleccionada es: {posicion}")
 
-    rta = st.button('Hola Nacho')
-    if rta:
-        st.write('Que haces Nacho')
-        st.write(rta)
-    else:
-        st.write('-')
-        st.write(rta)
+    # opciones = st.multiselect("Seleccione una posicion",["Portero", "Defensa", "Mediocampista", "Delantero"])
+    # st.write(f"La posicion seleccionada es: {opciones}")
 
-    tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+    # edad = st.slider('Selecione su edad: ',
+    #                 min_value=1, max_value=100, value=20, step=1)
+    # st.write(f"Su edad es : {edad}")
 
-    with tab1:
-        st.header("A cat")
-        st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-    with tab2:
-        st.header("A dog")
-        st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-    with tab3:
-        st.header("An owl")
-        st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+    # nivel = st.select_slider(
+    #     "Selecciones su nivel: ",
+    #     ["Muy bajo", "Bajo", "Medio", "Alto", "Muy alto"])
+    # st.write(f"Su nivel es: {nivel}")
+
+    # opc = st.radio('Seleccione una opcion: ',["Portero", "Defensa", "Mediocampista", "Delantero"])
+    # st.write(f'La opcion es: {opc}')
+
+    # check = st.checkbox("Acepto las condiciones.")
+    # if check:
+    #     st.write("Has aceptado las condiciones")
+    # else:
+    #     st.write("No has aceptado las condiciones")
+
+    # rta = st.button('Hola Nacho')
+    # if rta:
+    #     st.write('Que haces Nacho')
+    #     st.write(rta)
+    # else:
+    #     st.write('-')
+    #     st.write(rta)
+
+    # tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+
+    # with tab1:
+    #     st.header("A cat")
+    #     st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+    # with tab2:
+    #     st.header("A dog")
+    #     st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+    # with tab3:
+    #     st.header("An owl")
+    #     st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
         
 
 
