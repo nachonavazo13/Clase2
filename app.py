@@ -24,6 +24,7 @@ def main():
     st.info("Mensaje de información.")
     st.exception("Msj control de exception")
     st.write("Aca podemos poner el texto que querramos.")
+    st.write("### 1+3")
 
 
 if __name__ == "__main__":
