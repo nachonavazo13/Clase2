@@ -1,5 +1,6 @@
 # ev_clase2\Scripts\activate  deactivate
 # importar streamlit
+# Probando como reniciar la conexion
 import streamlit as st
 import pandas as pd
 from PIL import Image
