@@ -8,20 +8,44 @@ from PIL import Image
 # df = pd.read_csv("data/match_result.csv")
 
 def main():
-    st.title("Trabajando con Multimedia en Streamlit")
+    st.title("Trabajando con controles de ingreso de datos.")
 
-    img = Image.open("assets/OBRAS.png")
-    st.image(img, use_container_width=True)
+    nombre = st.text_input("Ingrese su nombre: ")
+    st.write(nombre)
 
-    img1 = "https://aula.sportsdatacampus.com/pluginfile.php?file=%2F1%2Ftheme_moove%2Flogo%2F1729159738%2FSDC_Hor_250.png"
-    st.image(img1, use_container_width=True)
+    mensaje = st.text_area("Ingrese su nombre: ", height=100)
+    st.write(mensaje) # Para ver el resultado apretar Ctrl + Enter
 
-    with open("assets/2_PICK AL EJE.mp4", 'rb') as video_file:
-        st.video(video_file, start_time=0)
+    edad = st.number_input("Ingrese su edad: ", 1,100, step=5)
+    st.write(edad)
+
+    fecha = st.date_input("Ingrese su fecha de nacimiento: ")
+    st.write(fecha)
+
+    hora = st.time_input("Ingrese la hora: ")
+    st.write(hora)
+
+    color = st.color_picker("Seleccione un color")
+    st.write(color)
+    
+    
+    
+    
+    
+    
+    # MULTIMEDIA
+    # img = Image.open("assets/OBRAS.png")
+    # st.image(img, use_container_width=True)
+
+    # img1 = "https://aula.sportsdatacampus.com/pluginfile.php?file=%2F1%2Ftheme_moove%2Flogo%2F1729159738%2FSDC_Hor_250.png"
+    # st.image(img1, use_container_width=True)
+
+    # with open("assets/2_PICK AL EJE.mp4", 'rb') as video_file:
+    #     st.video(video_file, start_time=0)
     
 
 
-
+    # FILTROS BOTONES CHECK ETC
     # posicion = st.selectbox("Seleccione una posicion",["Portero", "Defensa", "Mediocampista", "Delantero"])
     # st.write(f"La posicion seleccionada es: {posicion}")
 
