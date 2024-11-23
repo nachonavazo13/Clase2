@@ -4,6 +4,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+import plotly.express as px
 
 # df = pd.read_csv("data/match_result.csv")
 
@@ -17,7 +18,12 @@ st.set_page_config('MPAD M8',
 def main():
     st.title("Personalizando mi aplicacion.")
     st.sidebar.header('Menu')
-   
+
+    df = pd.read_csv("data/match_result.csv")
+    st.dataframe(df)
+    df_count = df.groupby('tournament').count().reset_index()
+    fig = px.pie(df_count, values= 'country', title= 'Paises por torneos')
+    st.plotly_chart(fig)
    
     # CONTROLES DE ENTRADA
     # nombre = st.text_input("Ingrese su nombre: ")
